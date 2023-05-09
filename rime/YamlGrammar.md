@@ -1,3 +1,5 @@
+# YAML 语法
+
 Rime 使用 [YAML](http://yaml.org/) 作为配置文件
 
 - 后缀为`.yaml`或`.yml`，在 Rime 里推荐使用`.yaml`

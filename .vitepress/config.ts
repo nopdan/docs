@@ -83,7 +83,7 @@ function sidebarRime() {
         { text: "Home", link: "/rime/" },
         { text: "自序", link: "/rime/Introduction" },
         { text: "说明书", link: "/rime/RimeUserGuide" },
-        { text: "Rime汇总", link: "/rime/Rime汇总" },
+        { text: "Rime 汇总", link: "/rime/Rime汇总" },
       ],
     },
     {
@@ -92,21 +92,19 @@ function sidebarRime() {
       items: [
         { text: "用户文件夹", link: "/rime/UserData" },
         { text: "共享文件夾", link: "/rime/SharedData" },
-        { text: "yaml 基础语法", link: "/rime/YamlGrammar" },
+        { text: "YAML 语法", link: "/rime/YamlGrammar" },
+        { text: "YAML in Rime", link: "/rime/YamlRime" },
         {
-          text: "配置文件中的 yaml 语法",
-          link: "/rime/trimer小知识(2)---配置文件中的一些yaml语法",
+          text: "正则表达式",
+          link: "https://www.runoob.com/regexp/regexp-tutorial.html",
         },
-        { text: "Rime 配置文件", link: "/rime/Configuration" },
-        {
-          text: "yaml 开头注释",
-          link: "/rime/trimer小知识(1)---Yaml文件开头注释是什么意思？",
-        },
+        
       ],
     },
     {
       text: "进阶",
       items: [
+        { text: "Rime 配置文件", link: "/rime/Configuration" },
         { text: "Rime 定製指南", link: "/rime/CustomizationGuide1" },
         { text: "输入方案设计书", link: "/rime/RimeWithSchemata" },
         { text: "Schema.yaml 詳解", link: "/rime/Rime方案製作詳解" },
