@@ -80,13 +80,13 @@ function sidebarRime() {
     {
       text: "开始",
       items: [
-        { text: "Home", link: "rime/index" },
-        { text: "自序", link: "rime/Introduction" },
-        { text: "说明书", link: "rime/RimeUserGuide" },
-        { text: "Rime前端汇总", link: "rime/Rime前端汇总" },
+        { text: "Home", link: "/rime/" },
+        { text: "自序", link: "/rime/Introduction" },
+        { text: "说明书", link: "/rime/RimeUserGuide" },
+        { text: "Rime前端汇总", link: "/rime/Rime前端汇总" },
         {
           text: "Rime经典资料汇总",
-          link: "rime/Rime经典资料汇总-菜鸟书评",
+          link: "/rime/Rime经典资料汇总-菜鸟书评",
         },
       ],
     },
@@ -94,53 +94,53 @@ function sidebarRime() {
       text: "基础",
       collapsed: true,
       items: [
-        { text: "用户文件夹", link: "rime/UserData" },
-        { text: "共享文件夾", link: "rime/SharedData" },
-        { text: "yaml 基础语法", link: "rime/YamlGrammar" },
+        { text: "用户文件夹", link: "/rime/UserData" },
+        { text: "共享文件夾", link: "/rime/SharedData" },
+        { text: "yaml 基础语法", link: "/rime/YamlGrammar" },
         {
           text: "配置文件中的 yaml 语法",
-          link: "rime/trimer小知识(2)---配置文件中的一些yaml语法",
+          link: "/rime/trimer小知识(2)---配置文件中的一些yaml语法",
         },
-        { text: "Rime 配置文件", link: "rime/Configuration" },
+        { text: "Rime 配置文件", link: "/rime/Configuration" },
         {
           text: "yaml 开头注释",
-          link: "rime/trimer小知识(1)---Yaml文件开头注释是什么意思？",
+          link: "/rime/trimer小知识(1)---Yaml文件开头注释是什么意思？",
         },
       ],
     },
     {
       text: "进阶",
       items: [
-        { text: "Rime 定製指南", link: "rime/CustomizationGuide1" },
-        { text: "输入方案设计书", link: "rime/RimeWithSchemata" },
-        { text: "Schema.yaml 詳解", link: "rime/Rime方案製作詳解" },
-        { text: "拼写运算", link: "rime/SpellingAlgebra" },
+        { text: "Rime 定製指南", link: "/rime/CustomizationGuide1" },
+        { text: "输入方案设计书", link: "/rime/RimeWithSchemata" },
+        { text: "Schema.yaml 詳解", link: "/rime/Rime方案製作詳解" },
+        { text: "拼写运算", link: "/rime/SpellingAlgebra" },
       ],
     },
     {
       text: "trime 同文",
       items: [
-        { text: "简易索引", link: "rime/UserGuide" },
-        { text: "trime.yaml 詳解", link: "rime/trime.yaml詳解" },
+        { text: "简易索引", link: "/rime/UserGuide" },
+        { text: "trime.yaml 詳解", link: "/rime/trime.yaml詳解" },
         {
           text: "案例参考-五笔双键配置案例详解(待完善)",
           collapsed: true,
           items: [
             {
               text: "(一) 准备篇",
-              link: "rime/五笔双键配置案例详解(一)-准备篇",
+              link: "/rime/五笔双键配置案例详解(一)-准备篇",
             },
             {
               text: "(二) 添加一个输入方案",
-              link: "rime/五笔双键配置案例详解(二)-添加一个输入方案",
+              link: "/rime/五笔双键配置案例详解(二)-添加一个输入方案",
             },
             {
               text: "(三) 用模糊音实现双键转换",
-              link: "rime/五笔双键配置案例详解(三)-用模糊音实现双键转换",
+              link: "/rime/五笔双键配置案例详解(三)-用模糊音实现双键转换",
             },
             {
               text: "(四) 实现手机上的双键键盘",
-              link: "rime/五笔双键配置案例详解(四)-实现手机上的双键键盘",
+              link: "/rime/五笔双键配置案例详解(四)-实现手机上的双键键盘",
             },
           ],
         },
@@ -149,20 +149,20 @@ function sidebarRime() {
     {
       text: "librime-lua",
       items: [
-        { text: "Home", link: "rime/luaHome" },
-        { text: "脚本开发指南", link: "rime/Scripting" },
+        { text: "Home", link: "/rime/luaHome" },
+        { text: "脚本开发指南", link: "/rime/Scripting" },
       ],
     },
     {
       text: "其他",
       collapsed: true,
       items: [
-        { text: "詞典擴展包", link: "rime/DictionaryPack" },
-        { text: "配方", link: "rime/Recipes" },
-        { text: "概念解讀", link: "rime/RimeWithTheDesign" },
-        { text: "心情集", link: "rime/MoodCollection" },
-        { text: "用家如是說", link: "rime/UserQuotes" },
-        { text: "FAQ", link: "rime/FAQ" },
+        { text: "詞典擴展包", link: "/rime/DictionaryPack" },
+        { text: "配方", link: "/rime/Recipes" },
+        { text: "概念解讀", link: "/rime/RimeWithTheDesign" },
+        { text: "心情集", link: "/rime/MoodCollection" },
+        { text: "用家如是說", link: "/rime/UserQuotes" },
+        { text: "FAQ", link: "/rime/FAQ" },
       ],
     },
   ];
