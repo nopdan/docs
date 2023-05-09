@@ -104,7 +104,7 @@ function sidebarRime() {
       text: "进阶",
       items: [
         { text: "Rime 配置文件", link: "/rime/Configuration" },
-        { text: "Rime 定製指南", link: "/rime/CustomizationGuide1" },
+        { text: "Rime 定制指南", link: "/rime/Rime定制指南" },
         { text: "输入方案设计书", link: "/rime/RimeWithSchemata" },
         { text: "Schema.yaml 詳解", link: "/rime/Rime方案製作詳解" },
         { text: "拼写运算", link: "/rime/SpellingAlgebra" },
