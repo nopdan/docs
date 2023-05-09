@@ -83,11 +83,7 @@ function sidebarRime() {
         { text: "Home", link: "/rime/" },
         { text: "自序", link: "/rime/Introduction" },
         { text: "说明书", link: "/rime/RimeUserGuide" },
-        { text: "Rime前端汇总", link: "/rime/Rime前端汇总" },
-        {
-          text: "Rime经典资料汇总",
-          link: "/rime/Rime经典资料汇总-菜鸟书评",
-        },
+        { text: "Rime汇总", link: "/rime/Rime汇总" },
       ],
     },
     {
