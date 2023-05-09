@@ -1,0 +1,47 @@
+name: build and push
+
+on:
+  push:
+    branches:
+      - main # 只有main分支上有push才执行
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  build_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout # 获取源代码
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Remove File
+        run: |
+          rm home.wiki/CustomizationGuide.md
+          rm librime-lua.wiki/Scripting.md
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+  
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: true
+
+      - name: Build
+        run: pnpm docs:build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          branch: gh-pages
+          folder: .vitepress/dist
+          clean: true
+          single-commit: true #不保留历史commit

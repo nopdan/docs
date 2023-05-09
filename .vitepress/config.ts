@@ -19,7 +19,27 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Rime", link: "/rime/" },
-      { text: "Examples", link: "/test/markdown-examples" },
+      {
+        text: "List",
+        items: [
+          {
+            text: "星辰双拼",
+            link: "/xingchen/",
+          },
+          {
+            text: "心流双拼",
+            link: "/xingchen/",
+          },
+          {
+            text: "小可两笔",
+            link: "/xingchen/",
+          },
+          {
+            text: "倾心两笔",
+            link: "/xingchen/",
+          },
+        ],
+      },
     ],
 
     sidebar: {
