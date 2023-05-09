@@ -93,7 +93,6 @@ function sidebarRime() {
         { text: "用户文件夹", link: "/rime/UserData" },
         { text: "共享文件夾", link: "/rime/SharedData" },
         { text: "YAML 语法", link: "/rime/YamlGrammar" },
-        { text: "YAML in Rime", link: "/rime/YamlRime" },
         {
           text: "正则表达式",
           link: "https://www.runoob.com/regexp/regexp-tutorial.html",
@@ -115,6 +114,7 @@ function sidebarRime() {
       text: "trime 同文",
       items: [
         { text: "简易索引", link: "/rime/UserGuide" },
+        { text: "YAML in trime", link: "/rime/YamlTrime" },
         { text: "trime.yaml 詳解", link: "/rime/trime.yaml詳解" },
         {
           text: "案例参考-五笔双键配置案例详解(待完善)",
