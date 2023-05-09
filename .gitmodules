@@ -1,0 +1,9 @@
+[submodule "trime.wiki"]
+	path = trime.wiki
+	url = https://github.com/osfans/trime.wiki.git
+[submodule "home.wiki"]
+	path = home.wiki
+	url = https://github.com/rime/home.wiki.git
+[submodule "librime-lua.wiki"]
+	path = librime-lua.wiki
+	url = https://github.com/hchunhui/librime-lua.wiki.git
