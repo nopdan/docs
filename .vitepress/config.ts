@@ -6,7 +6,6 @@ export default defineConfig({
   description: "某不知名的输入法文档站",
   rewrites: {
     "librime-lua.wiki/Home.md": "rime/luaHome.md",
-    "librime-lua.wiki/Scripting.md": "rime/lua.md",
 
     "home.wiki/Home.md": "rime/index.md",
     "home.wiki/UserGuide.md": "rime/RimeUserGuide.md",
