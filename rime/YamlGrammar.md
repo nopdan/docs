@@ -78,10 +78,10 @@ key:
 string:
   #只要没有特殊字符，中文也可以不加引号
   - 哈哈
-  #使用双引号或者单引号包裹特殊字符
-  - 'Hello \n world' #实际值为 Hello \n world
-  #双引号里的字符串不转义
+  #双引号里的字符串正常转义
   - "Hello \n world" #实际值为 Hello 换行 world
+  #单引号相当于字面量，不进行转义
+  - 'Hello \n world' #实际值为 Hello \n world
   #使用单引号转义单引号
   - 'I''m'
 ```
