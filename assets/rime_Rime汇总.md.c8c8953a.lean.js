@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as r,O as a}from"./chunks/framework.fe655854.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"rime/Rime汇总.md","filePath":"rime/Rime汇总.md"}'),i={name:"rime/Rime汇总.md"},d=a("",6),o=[d];function n(m,h,l,s,f,c){return r(),e("div",null,o)}const p=t(i,[["render",n]]);export{_ as __pageData,p as default};

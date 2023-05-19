@@ -1,0 +1,1 @@
+import{_ as i,c as e,o as a,O as o}from"./chunks/framework.fe655854.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"rime/FAQ.md","filePath":"home.wiki/FAQ.md"}'),r={name:"rime/FAQ.md"},t=o("",10),l=[t];function n(s,c,p,d,_,h){return a(),e("div",null,l)}const f=i(r,[["render",n]]);export{m as __pageData,f as default};

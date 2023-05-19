@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as l,O as n}from"./chunks/framework.fe655854.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"rime/YamlTrime.md","filePath":"rime/YamlTrime.md"}'),p={name:"rime/YamlTrime.md"},o=n("",69),e=[o];function t(c,r,D,y,F,C){return l(),a("div",null,e)}const u=s(p,[["render",t]]);export{i as __pageData,u as default};
